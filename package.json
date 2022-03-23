@@ -1,0 +1,32 @@
+{
+  "name": "mearn-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed5510-Mac/Mearn-stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed5510-Mac/Mearn-stack/issues"
+  },
+  "homepage": "https://github.com/Ahmed5510-Mac/Mearn-stack#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "mongoose-sequence": "^5.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  }
+}
