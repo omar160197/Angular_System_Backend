@@ -10,9 +10,10 @@ const multer = require("multer");
 const path = require("path");
 
 /*------------------------------- Routers-------------------------------*/
+/////////toz fik ya ahmed
 const customerRouter = require("./Routers/customerRouter");
 const loginRouter =require('./Routers/authRouter');
-
+/////////toz fik ya omar
 /*------------------------------- Images-------------------------------*/
 //image variable
 const storage = multer.diskStorage({
